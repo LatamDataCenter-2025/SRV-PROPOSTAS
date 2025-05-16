@@ -1,0 +1,1 @@
+# Integração Google Drive será configurada aqui
