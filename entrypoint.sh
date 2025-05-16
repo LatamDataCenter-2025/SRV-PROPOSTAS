@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 cd /home/container/app
 echo "Iniciando Servidor de Propostas Comerciais..."
-python app.py
+exec python3 app.py --port=$PORT
